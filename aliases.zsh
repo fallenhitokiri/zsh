@@ -1,3 +1,7 @@
 alias s="python -m SimpleHTTPServer 9000"
 alias mongostart="mongod run --config /usr/local/etc/mongod.conf"
 alias redis="redis-server /usr/local/etc/redis.conf"
+alias fr="foreman run"
+alias m="python manage.py"
+alias selenium="java -jar /usr/local/opt/selenium-server-standalone/selenium-server-standalone-2.28.0.jar -p 4444"
+alias gitcount="git ls-files | xargs wc -l"
